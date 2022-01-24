@@ -1,0 +1,23 @@
+{
+    "name": "doniws/php",
+    "description": "Composer PHP",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Doniws\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Doniws",
+            "email": "doniwahsap@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.56"
+    },
+    "scripts": {
+        "server": "php -S localhost:3636"
+    }
+}
