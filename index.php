@@ -11,16 +11,16 @@
 <body>
     <h1>Hello</h1>
     <?php
-    $total_belanja = 150000;
 
-if($total_belanja < 1000){
-    echo "Anda dapat hadiah!";
-}else{
-    echo "Tidak mendapatkan apa apa";
-}
-
+    class Doni{
+        function Nama(){
+            echo "NAMA NYA : ". __CLASS__;
+        }
+    }
 
 
+    $aku = new Doni();
+    $aku->Nama();
 
     ?>
 </body>
