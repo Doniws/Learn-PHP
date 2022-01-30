@@ -12,17 +12,14 @@
 <body>
     <h1>Hello</h1>
     <?php
-
-    $kelas = 10 ;
-    $age = 12 ;
-    if ($age > 14.5) {
-        if ($kelas) {
-            echo "Sangat Cukup";
-        }else{
-            echo "Sudah Cukup";
+    $j= 0;
+    
+    for ($i=0; $i < 10; $i++) { 
+        while ($j < 100) {
+            echo "Perulangan ke-$i dan $j<br>";
+            $j++;
         }
-    }else{
-        echo "Ngak Cukup";
+        
     }
     ?>
 </body>

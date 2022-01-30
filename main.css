@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Din";
-    
+    color: rgb(72, 255, 0);
 }
 
 h1,h2{
@@ -11,10 +11,11 @@ h1,h2{
 }
 
 body{
-    background: rgb(230, 230, 230);
+    background: rgb(0, 0, 0);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
     display: flex;
+    
 }
