@@ -12,15 +12,22 @@
 <body>
     <h1>Hello</h1>
     <?php
-    $j= 0;
+
     
-    for ($i=0; $i < 10; $i++) { 
-        while ($j < 100) {
-            echo "Perulangan ke-$i dan $j<br>";
-            $j++;
+
+    function faktor($angka){
+        if ($angka < 2) {
+            return 1;
         }
-        
+        else {
+            return($angka* faktor($angka-1));
+        }
     }
+    echo "faktorial 6 adalah".faktor(5);
+
+    
+    
+
     ?>
 </body>
 </html>
