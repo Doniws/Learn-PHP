@@ -12,22 +12,7 @@
 <body>
     <h1>Hello</h1>
     <?php
-
-    
-
-    function faktor($angka){
-        if ($angka < 2) {
-            return 1;
-        }
-        else {
-            return($angka* faktor($angka-1));
-        }
-    }
-    echo "faktorial 6 adalah".faktor(5);
-
-    
-    
-
+      echo  $_SERVER['REQUEST_TIME']
     ?>
 </body>
 </html>
